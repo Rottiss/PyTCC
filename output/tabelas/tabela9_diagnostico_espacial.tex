@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Diagnóstico de Autocorrelação Espacial Residual (Teste I de Moran)}
+\label{tab:diagnostico_espacial}
+\begin{tabular}{llcccp{5.5cm}}
+\toprule
+\textbf{Desfecho} & \textbf{Matriz} & \textbf{$N$} & \textbf{$I$ de Moran} & \textbf{Pseudo $p$-valor} & \textbf{Diagnóstico} \\
+\midrule
+Casos & Queen & 184 & 0,2560 & < 0,001 & Autocorrelação residual identificada ($p < 0{,}05$) \\
+Casos & Rook & 184 & 0,2605 & < 0,001 & Autocorrelação residual identificada ($p < 0{,}05$) \\
+Óbitos & Queen & 184 & 0,2251 & < 0,001 & Autocorrelação residual identificada ($p < 0{,}05$) \\
+Óbitos & Rook & 184 & 0,2442 & < 0,001 & Autocorrelação residual identificada ($p < 0{,}05$) \\
+Letalidade & Queen & 184 & 0,0845 & 0,0602 & Sem autocorrelação residual ao nível de 5\% \\
+Letalidade & Rook & 184 & 0,0921 & 0,0536 & Sem autocorrelação residual ao nível de 5\% \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item \textit{Nota:} Baseado em 9.999 permutações condicionais sobre os resíduos do modelo BMA principal.
+\end{tablenotes}
+\end{table}
