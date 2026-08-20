@@ -2,12 +2,12 @@
 
 Python/Seaborn visualization pipeline for a Bayesian Model Averaging (BMA) analysis of COVID-19 outcomes across the 184 municipalities of Ceará, Brazil. Generates the figures and tables used in the accompanying undergraduate thesis (TCC).
 
-This project reads the BMA estimation results produced by the companion R project, [COVID_BMA](https://github.com/Rottis/COVID_BMA), and turns them into publication-ready figures (PIP charts, correlation heatmaps, choropleth maps, distribution plots, sensitivity heatmaps) and formatted tables (CSV, Markdown, LaTeX).
+This project reads the BMA estimation results produced by the companion R project, [COVID_BMA](https://github.com/Rottiss/COVID_BMA), and turns them into publication-ready figures (PIP charts, correlation heatmaps, choropleth maps, distribution plots, sensitivity heatmaps) and formatted tables (CSV, Markdown, LaTeX).
 
 ## Requirements
 
 - Python 3.10+
-- The [COVID_BMA](https://github.com/Rottis/COVID_BMA) repository, cloned as a sibling or otherwise available locally
+- The [COVID_BMA](https://github.com/Rottiss/COVID_BMA) repository, cloned as a sibling or otherwise available locally
 
 Install dependencies:
 
@@ -48,4 +48,4 @@ This runs the full pipeline: PIP/coefficient plots, correlation heatmaps and clu
 
 ## Related work
 
-This is part of an undergraduate thesis (Economics, Universidade Federal do Ceará) analyzing factors associated with COVID-19 cases, deaths, and case fatality across Ceará's municipalities using Bayesian Model Averaging. The BMA estimation itself lives in the companion repository, [COVID_BMA](https://github.com/Rottis/COVID_BMA).
+This is part of an undergraduate thesis (Economics, Universidade Federal do Ceará) analyzing factors associated with COVID-19 cases, deaths, and case fatality across Ceará's municipalities using Bayesian Model Averaging. The BMA estimation itself lives in the companion repository, [COVID_BMA](https://github.com/Rottiss/COVID_BMA).
